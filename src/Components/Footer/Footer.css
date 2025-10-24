@@ -1,73 +1,119 @@
 
 .footer{
     width: 100%;
-    height: 2vh;
-    background-color: rgb(100, 88, 88);
+    height: 40vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,15vw);
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding: 20px 0px;
+    gap: 5vw;
+  
+    
+}
+
+
+
+
+.footer a img{
+    height: 15px;
+    width: 15px;
+  filter: brightness(0) invert(1);
+}
+
+.footer a{
+    background-color: rgb(18, 17, 17);
+   margin-right: 20px;
+}
+
+.footerfirst{
+    margin-top: 30px;
     display: flex;
-    gap: 200px;
-    overflow: hidden;
-    /* filter: brightness(75%); */
-    position: relative;
-    /* top: -8vh; */
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: center; */
+    
+    /* justify-content: center; */
 
     
 }
-.text{
-    transform: translate(75px);
-    font-size: 14px;
-    font-family:sans-serif;
-}
-
-
-
-
-.links a {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    overflow: hidden;
-
+.footerfirst h3{
+    margin-bottom: 6px;
 
 }
-.links{
+.footerfirst p{
+    /* padding: 0 20px; */
+    text-align: start;
+    font-size: 12px;
+}
+
+.footersecond ul li{
+list-style: none;
+
+}
+.footersecond  a{
+    text-decoration: none; 
+    font-size: 12px;
+}
+
+.footersecond{
+     margin-top: 33px;
+
+}
+
+.footersecond ul{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerimages{
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    grid-template-rows: 40px 40px;
+    gap: 5px;
+}
+.footerthird img{
+    height: 40px;
+    width: 40px;
+}
+.footerthird p{
+    margin-top: 30px;
+    margin-bottom: 29px;
+    font-weight: 600;
+    font-size: 14px;
    
-    gap: 40px;
-   /* margin-left: 200px; */
-transform: translateX(70px);
-overflow: hidden;
 }
 
-.links a img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  
+.footerfourth img{
+    height: 20vh;
+    width: 15vw;
 }
 
- .links a:nth-child(3){
-    width: 60px;
-    height: 80px;
+.footer::after{
+    content: "© Copyright 2025 Explore . All rights reserved";
+    /* text-align: center;
+     */
+    display: inline-block;
+    color:rgba(255, 255, 255, 0.348);
+    width: 100vw;
+
+    margin-top: -30px;
+    padding-left: 30vw;
+    font-size: 12px;
+    
+}
+
+@media (max-width: 900px) {
+.footerfourth img{
+    height: 10vh;
+    width: 15vw;
+}
+.footerimages{
+      grid-template-columns: repeat(2, 40px);
+    grid-template-rows: 40px 40px;
 }
 
 
-
-.links :first-child{
-    border-radius: 20%;
-}
-
-/* .links :first-child img{
-    height: 30px;
-    width: 60px;
-    object-fit: cover;
-    object-position: 50% 25%;;
-} */
-
+  }
 
 

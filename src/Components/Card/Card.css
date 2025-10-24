@@ -12,12 +12,12 @@
     border-radius: 5px;
     left: 33px;
     
-    transition: background-color 0.5 ease;
+    transition: background-color 1s ease;
     background-color: rgba(89, 78, 78, 0.304);
 }
 
 .box:hover{
-    background-color:rgba(67, 63, 63, 0.304); ;
+    background-color:rgba(67, 63, 63, 0); ;
 }
 .imgSection2 img{
     background-size: cover;

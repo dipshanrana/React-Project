@@ -1,6 +1,6 @@
 .Contact{
     background-image:linear-gradient(rgba(9, 8, 8, 0.904),rgba(57, 51, 51, 0.563)), url('../../assets/Contact.jpg');
-    height: 100vh;
+    height: 108vh;
     background-position: 90%;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -29,5 +29,14 @@ margin-bottom: 20px;
     width: 20vw;
     height: 50vh;
     border-radius: 4px;
-    box-shadow: 5px 2px 8px 4px #1b1919c9
+    box-shadow: 5px 2px 8px 4px #1b1919c9;
+    margin-right: 20px;
+    
+}
+.formbox:hover{
+    background-color: rgba(180, 207, 198, 0.232);
+}
+
+.contactText{
+    margin-left: 30px;
 }
