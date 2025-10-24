@@ -56,7 +56,7 @@ const ContactForm = () => {
         gap: "15px",
       }}
     >
-      <h2 style={{ textAlign: "center", color:"black", fontFamily:"arial" }}>Connect With Us</h2>
+      <h2 style={{ textAlign: "center", color:"black", fontFamily:"arial",fontWeight:"500" }}>Connect With Us</h2>
 
       <input
         type="text"
