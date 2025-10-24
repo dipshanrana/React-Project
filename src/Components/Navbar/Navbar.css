@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  perspective: 1000px;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.logo {
+  margin-left: 40px;
+  animation: move 5s linear infinite alternate forwards running;
+  animation-delay: 5s;
+
+}
+
+.logo img {
+  animation: spin 2s linear infinite;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 100px; */
+  width: 60vw;
+  /* animation:navglow 10s linear infinite 10s; */
+  /* animation-delay: 5s; */
+}
+
+nav ul li {
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+ul li:hover {
+  /* color: rgb(163, 66, 66); */
+  background-color: rgba(255, 206, 147, 0.384);
+  box-shadow: 10px 10px 10px rgba(60, 47, 47, 0.215);
+  border-radius: 4px;
+  font-weight: 600;
+
+
+}
+
+
+nav ul li:active {
+  box-shadow: 10px 10px 10px rgba(60, 47, 47, 0.648);
+
+}
+
+@keyframes move {
+
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translateX(40vw);
+  }
+
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(236, 205, 205);
+  font-family: "Poppins";
+  font-weight: 500;
+
+
+}
+
+/* cubic-bezier(0.16, 0.51, 0.2, 1) */
+
+.active {
+  animation: glow 5s linear;
+  /* background-color:rgba(255, 206, 147, 0.384); */
+  box-shadow: 10px 10px 10px rgba(60, 47, 47, 0.215);
+  border-radius: 10px;
+  font-weight: 600;
+  transform-style: preserve-3d;
+}
+
+
+@keyframes glow {
+
+  /* 0%{
+        transform: translateZ(0)  rotate(0deg);
+        
+      
+
+    }
+
+    25%{
+            transform: translateZ(0)  rotate(90deg) scale(1);
+            padding: 3px;
+    }
+
+    50%{
+         transform: translateZ(0)  rotate(180deg) scale(0.8);
+            padding: 3px;
+    }
+    75%{
+        transform:  translateZ(10px) rotate(270deg);
+        padding: 5px;
+    }
+
+    100%{
+    transform:  translateZ(0px) rotate(360deg) scale(1);
+    } */
+  from {
+
+    transform: translateZ(0) rotate(180deg) scale(0);
+
+
+  }
+
+  to {
+    transform: translateZ(100px) rotate(360deg) scale(1);
+  }
+
+}
+
+@keyframes navglow {
+
+  /* 0%{
+    background-color:bisque;
+   } */
+  0% {
+    /* background-color:hsl(20, 67%, 70%) */
+  }
+
+  100% {
+    /* background-color:hsl(20deg 68.89% 73.53%) */
+  }
+
+
+}
+
+.navglow {
+
+  animation: navglow 5s linear;
+
+
+
+}
+
+/* @keyframes moveSpin {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateX(40vw) rotate(360deg);
+  }
+
+}  */

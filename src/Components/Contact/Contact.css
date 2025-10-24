@@ -1,0 +1,33 @@
+.Contact{
+    background-image:linear-gradient(rgba(9, 8, 8, 0.904),rgba(57, 51, 51, 0.563)), url('../../assets/Contact.jpg');
+    height: 100vh;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+    /* position: relative;
+    top: -10vh; */
+    /* margin-bottom: -10vh; */
+    margin-top: -10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Contact h2{
+text-align: start;
+margin-bottom: 20px;
+
+
+}
+.Contact p{
+    text-align: start;
+}
+.formbox{
+    background-color: white;
+    width: 20vw;
+    height: 50vh;
+    border-radius: 4px;
+    box-shadow: 5px 2px 8px 4px #1b1919c9
+}
