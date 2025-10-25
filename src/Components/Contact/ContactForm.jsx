@@ -47,16 +47,9 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      style={{
-        maxWidth: "500px",
-        margin: "0 auto",
-        padding: "20px",
-        display: "flex",
-        flexDirection: "column",
-        gap: "15px",
-      }}
+      className="form"
     >
-      <h2 style={{ textAlign: "center", color:"black", fontFamily:"arial",fontWeight:"500" }}>Connect With Us</h2>
+      <h2>Get In Touch</h2>
 
       <input
         type="text"
@@ -65,7 +58,8 @@ const ContactForm = () => {
         value={formData.name}
         onChange={handleChange}
         required
-        style={{ padding: "10px" , backgroundColor:"#e8e4e4b1", borderRadius:"4px",color:"black"}}
+        className="name"
+
       />
 
       <input
@@ -75,7 +69,8 @@ const ContactForm = () => {
         value={formData.email}
         onChange={handleChange}
         required
-        style={{ padding: "10px", backgroundColor:"#e8e4e4b1", borderRadius:"4px",color:"black" }}
+        className="email"
+
       />
 
       <textarea
@@ -84,21 +79,14 @@ const ContactForm = () => {
         value={formData.message}
         onChange={handleChange}
         required
-        rows="5"
-        style={{ padding: "10px" , backgroundColor:"#e8e4e4b1", borderRadius:"4px", color:"black"}}
+        rows="8"
+        className="textarea"
       />
 
       <button
         type="submit"
         disabled={isSubmitting}
-        style={{
-          backgroundColor: "#007bff",
-          color: "#fff",
-          padding: "10px",
-          border: "none",
-          borderRadius: "5px",
-          cursor: isSubmitting ? "not-allowed" : "pointer",
-        }}
+        className="formbutton"
       >
         {isSubmitting ? "Sending..." : "Send Message"}
       </button>

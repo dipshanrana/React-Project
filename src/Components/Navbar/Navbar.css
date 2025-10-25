@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
 
 nav {
   background-color: hsl(0, 0%, 100%);
@@ -44,17 +47,28 @@ nav ul li {
   padding: 20px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  
 }
 
 
 nav ul li:hover {
   /* color: rgb(163, 66, 66); */
-  background-color: rgba(255, 206, 147, 0.384);
+  background-color: rgba(144, 120, 91, 0.234);
   box-shadow: 10px 10px 10px rgba(60, 47, 47, 0.215);
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: bolder;
+  font-weight: 400;
+
+  
+  /* font-size: 17px; */
+  /* font-size: 17px; */
 
 
+
+}
+nav ul li:hover a{
+   /* font-weight: 600; */
+   font-size: 17px;
 }
 
 
@@ -88,11 +102,15 @@ nav ul li:active {
 nav ul li a {
   text-decoration: none;
   color: rgb(241, 235, 235);
-  font-family: "Poppins";
-  font-weight: 500;
+  font-family:'Montserrat';
+  /* font-weight: bold; */
+  transition: font-size 0.5s ease-in-out;
 
 
 }
+/* nav ul li a:hover{
+   font-weight: 600;
+} */
 
 /* cubic-bezier(0.16, 0.51, 0.2, 1) */
 
@@ -101,7 +119,7 @@ nav ul li a {
   /* background-color:rgba(255, 206, 147, 0.384); */
   box-shadow: 10px 10px 10px rgba(60, 47, 47, 0.215);
   border-radius: 10px;
-  font-weight: 600;
+  font-weight: 400;
   transform-style: preserve-3d;
 }
 

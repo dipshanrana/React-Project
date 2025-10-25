@@ -224,7 +224,7 @@ animation:swipe 3s ease  ;
  @media (min-width: 1300px) and (max-width: 1600px){
     .section2,.section3{
       
-       grid-template-columns: repeat(3,450px);
+       grid-template-columns: repeat(3,30vw);
     grid-template-rows: 1fr 1fr;
     gap:30px;
     
@@ -236,9 +236,9 @@ animation:swipe 3s ease  ;
      .section2,.section3{
       
        grid-template-columns: repeat(3,20vw);
-    grid-template-rows: 1fr 1fr;
-            gap:5vw;
-    
+    grid-template-rows: 35vh 35vh;
+            gap:10vw;
+    height: 80vh;
 
     } 
     
