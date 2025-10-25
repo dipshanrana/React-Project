@@ -17,7 +17,9 @@ const Explore = () => {
   useEffect(()=>{
    let index= 0;
   
-    const interval  =setInterval(() => {
+    const interval  =
+    setTimeout(() => {
+         setInterval(() => {
 
   
       setDisplayedText((prev)=>prev+text.charAt(index));
@@ -27,7 +29,9 @@ const Explore = () => {
   if(index>(text.length-1)){
         clearInterval(interval) 
   }   
-    }, 100);
+    }, 200);
+    }, 3000);
+ 
     
     return ()=>clearInterval(interval) }
     ,[text,speed]);

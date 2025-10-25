@@ -116,9 +116,7 @@ color: rgb(200, 203, 205);
     
 }
 
- .firstsection h1::after{
-/* */
-}
+
 
 @keyframes show{
     from{
