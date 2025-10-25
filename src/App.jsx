@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-    <Router> 
+    <Router basename="/React-Project"> 
     <Navbar/>
       <Routes>
     <Route path="/" element={<Home/>} />

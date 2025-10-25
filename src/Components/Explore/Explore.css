@@ -62,7 +62,7 @@ body{
 
 
 .firstsection img {
-height: 25vh;
+height: 30vh;
 width: 25vw;
 border-radius: 10px;
 cursor: pointer;
@@ -169,6 +169,10 @@ animation:swipe 3s ease  ;
 }
 .second{
     animation: swipeN 3s ease;
+    margin-top: -5vh;
+}
+.third{
+   animation:swipe 3s ease  ; 
 }
 
 @keyframes swipe {
