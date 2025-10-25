@@ -95,7 +95,8 @@ list-style: none;
      */
     display: inline-block;
     color:rgba(255, 255, 255, 0.348);
-    width: 100vw;
+    /* width: 100vw; */
+    width: 40vw;
 
     margin-top: -30px;
     padding-left: 30vw;

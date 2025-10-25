@@ -33,3 +33,6 @@ margin-bottom: 8px;
     gap: 13px;
     justify-content: center;
 }
+@media (max-width:970) {
+    
+}

@@ -5,7 +5,7 @@ import Bio from '../Bio/Bio'
 
 const AboutUs = () => {
   return (
-    <section>
+    <section className='aboutus'>
       <div class="section9">
         <div className='content'>
           <h1>ABOUT US</h1>
@@ -30,7 +30,7 @@ const AboutUs = () => {
       <div className='team1'>
        <h3 className='team1'>OUR TEAM</h3>
         <p>The best team works with unity, trust, and passion — turning challenges into achievements. Together, they make success inevitable.</p>
-       
+        
       </div>
 
       <div className='team'>

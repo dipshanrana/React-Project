@@ -1,8 +1,8 @@
 
 .box{
     
-    height: 450px;
-    width: 300px;
+    height: 60vh;
+    width: 20vw;
     display: flex;
     flex-direction: column;
     gap: 44px;
@@ -30,8 +30,8 @@
 
 }
 .imgSection2{
-height: 225px;
-width: 250px;
+height: 30vh;
+width: 15vw;
 overflow: hidden;
 border-radius: 4px;
 
@@ -51,8 +51,8 @@ border-radius: 4px;
 }
 
 .textSection2 button{
-    width: 150px;
-    height: 30px;
+    width: 10vw;
+    height: 5vh;
     background-color: rgb(152, 130, 130);
     font-family:serif;
     cursor: pointer;
@@ -70,3 +70,74 @@ border-radius: 4px;
 .textSection2 button:hover{
     background-color:  rgb(112, 101, 101);
 }
+
+@media (max-width: 1300px) and (min-width: 800px) {
+    .box{
+        height: 50vh;
+        width: 23vw;
+           gap:14px;
+    }
+    .textSection2 button{
+     width: 10vw;
+    height: 3vh;
+    margin-bottom: 2vh; 
+    font-size: 11px;
+    }
+    .textSection2 p{
+        font-size: 12px;
+    }
+    .imgSection2{
+        height: 15vh;
+        width: 15vw;
+     
+    }
+    
+}
+
+@media (max-width:800px) {
+
+        .box{
+        height: 30vh;
+        width: 15vw;
+           gap:10px;
+    }
+    .textSection2 button{
+     width: 10vw;
+    height: 3vh;
+    margin-bottom: 2vh; 
+    font-size: 8px;
+    }
+    .textSection2 p{
+        font-size: 9px;
+    }
+    .imgSection2{
+        height: 10vh;
+        width: 10vw;
+     
+    }
+
+}
+@media (max-width:660px){
+        .box{
+        height: 30vh;
+        width: 15vw;
+          
+    }
+    .textSection2 button{
+     width: 8vw;
+    height: 2vh;
+    margin-bottom: 1vh; 
+    font-size: 6px;
+    }
+    .textSection2 p{
+        font-size: 7px;
+    }
+    .imgSection2{
+        height: 8vh;
+        width: 10vw;
+     
+    }
+
+}
+
+
