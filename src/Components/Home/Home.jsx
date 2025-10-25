@@ -27,7 +27,7 @@ const Home = () => {
             </button>
         </div>
 
-        <div className="image"><img src="https://wallpaperaccess.com/full/4081673.jpg" alt="" /></div>
+        <div className="image"><img src="https://www.kevmrc.com/wp-content/uploads/2022/12/snow-leopard-768x513.jpeg" alt="" /></div>
       </div>
 
     </div>

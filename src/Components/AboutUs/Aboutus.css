@@ -58,7 +58,11 @@ margin-top: -10vh;
     /* background-position: center; */
     object-fit: cover;
     border-radius: 4px;
+    transition:transform 2s ease-in;
     
+}
+.imgWhat img:hover{
+transform: scale(1.04);
 }
 
 .UsText p{

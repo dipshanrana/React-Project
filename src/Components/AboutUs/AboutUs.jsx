@@ -34,10 +34,11 @@ const AboutUs = () => {
       </div>
 
       <div className='team'>
-        <Bio />
-        <Bio />
-        <Bio />
-        <Bio />
+        <Bio work="Photographer,videographer" name="Bishow Shrestha" image="https://alchetron.com/cdn/gyanendra-of-nepal-57555065-1b6c-453e-9304-7834ea27460-resize-750.jpeg"/>
+        <Bio work="Vlogger,Guide" name="Dishant Giri" image="https://cloudfront-us-east-2.images.arcpublishing.com/reuters/GQ2YGZKLORKTXBOKV5N4N645TE.jpg" />
+                <Bio name="Aaron KC" work="Photographer,Traveller" image="https://images.hindustantimes.com/img/2022/12/25/1600x900/NEPAL-GOVERNMENT--0_1671979250816_1671979250816_1671979283611_1671979283611.JPG" />
+        <Bio name="Dipesh Acharya" work="Traveller,Director" image="https://tse2.mm.bing.net/th/id/OIP.3vU_DokvZVdXflq17qsXmQHaEc?rs=1&pid=ImgDetMain&o=7&rm=3" />
+
       </div>
     </section>
 

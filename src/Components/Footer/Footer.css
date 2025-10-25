@@ -117,4 +117,8 @@ list-style: none;
 
   }
 
+  .footerimages img{
+    cursor: pointer;
+  }
+
 

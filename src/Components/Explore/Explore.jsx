@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Explore.css'
 import himalaya from '../../assets/Explore1.jpg'
 import Card from '../Card/Card'
@@ -7,13 +7,50 @@ import Card from '../Card/Card'
 const Explore = () => {
 
 
+  const[displayedText,setDisplayedText]=useState("")
+  const[showCursor,setShowCursor]= useState(true);
+   const text ="Weelcome to Nepal"
+  const speed = 200
+  // const indexRef=useRef(0)
+
+
+  useEffect(()=>{
+   let index= 0;
+  
+    const interval  =setInterval(() => {
+
+  
+      setDisplayedText((prev)=>prev+text.charAt(index));
+      index++;
+      // console.log(displayedText)
+      // 
+  if(index>(text.length-1)){
+        clearInterval(interval) 
+  }   
+    }, 100);
+    
+    return ()=>clearInterval(interval) }
+    ,[text,speed]);
+    
+    // useEffect(() => {
+    //   const cursorInterval=setInterval(() => {
+    //     setShowCursor((prev)=>!prev)
+    //   }, 500);
+    
+    //   return () => {
+    //     clearInterval(cursorInterval)
+    //   };
+    // }, []);
+    
+
+
   return <>
   <div className='explore'>
     <div className="section section1 firstsection">
 
-      <h1>Welcome to Nepal</h1>
+      <h1>{displayedText}</h1>
 
-            <div className='second contentExplore'>
+         <div className='second contentExplore'>
         <img src="https://cdn.pixabay.com/photo/2023/09/06/03/23/sunrise-8236216_640.jpg" alt="" />
         <div className="textExplore">
           <p>Serene Hills</p>

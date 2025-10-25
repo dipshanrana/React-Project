@@ -2,12 +2,12 @@ import React from 'react'
 import photo from '../../assets/Photo.jpg'
 import './Bio.css'
 
-const Bio = () => {
+const Bio = (props) => {
   return (
      <div className='info'>
-            <img className='sphoto' src={photo} alt="" />
-            <h3>Dipshan</h3>
-            <p>works</p>
+            <img className='sphoto' src={props.image} alt="" />
+            <h3>{props.name}</h3>
+            <p>{props.work}</p>
             <div className='social'>
               <a href=""><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/facebook.svg" alt="Facebook" /></a>
               <a href=""><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/instagram.svg" alt="Facebook" /></a>

@@ -6,7 +6,7 @@ import { BrowserRouter as Router,Routes,Route,Link, useLocation } from 'react-ro
 const Navbar = () => {
 
     const location = useLocation()
-    console.log(location.pathname)
+    // console.log(location.pathname)
 
     const[isGlowing,setIsGlowing]=useState(false);
     useEffect(()=>{

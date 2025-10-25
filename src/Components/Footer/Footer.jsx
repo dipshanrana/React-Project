@@ -34,12 +34,12 @@ const Footer = () => {
       <div className='footerthird'>
         <p >Gallery</p>
         <div className='footerimages'>
-        <img src={image} alt="" />
-        <img src={image} alt="" />
-        <img src={image} alt="" />
-        <img src={image} alt="" />
-        <img src={image} alt="" />
-        <img src={image} alt="" />
+        <img src="https://imgs.mongabay.com/wp-content/uploads/sites/20/2022/11/29060029/red-panda-2.jpg" alt="" />
+        <img src="https://tse2.mm.bing.net/th/id/OIP.RVS7A90AUbKJPG0scgW7NQHaFz?rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+        <img src="https://visitnepal2017blog.files.wordpress.com/2017/01/swayambhu-stupa.jpg?w=1024" alt="" />
+        <img src="https://th.bing.com/th/id/OIP.gGVWlOaVDyCg7CVytqqiRwHaEs?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="" />
+        <img src="https://i.ytimg.com/vi/6kmFiiLghDA/maxresdefault.jpg" alt="" />
+        <img src="https://img.freepik.com/premium-photo/trekking-himalaya-mountains-nepal-with-beautiful-green-hills-river-waterfalls_723123-494.jpg" alt="" />
         </div>
       </div>
       <div className='footerfourth'>
