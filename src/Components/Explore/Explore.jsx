@@ -26,7 +26,7 @@ const Explore = () => {
           <p>Lush Lanscapes</p>
           <p>Nepal's fertile southern plains with lush forests, wildlife, and cultural towns, including Chitwan, Lumbini, and Koshi Tappu.</p>
         </div>
-          <img src="https://www.selectiveasia.com/media/v2/1536x768/4100-3075_0_0_0/19222.jpg"alt="" />
+          <img src="https://vehiclenepal.com/wp-content/uploads/2023/04/Chitwan-NP.jpg"alt="" />
       </div>
 
 
@@ -54,11 +54,11 @@ const Explore = () => {
 
     <div className="section section3">
      <Card desc="Nagarkot - A peaceful hill station renowned for its stunning sunrise and panoramic Himalayan views." image="https://d6qyz3em3b312.cloudfront.net/upload/images/media/2017/05/04/8360637463_17fe0b6c62_o.2048x1024.jpg"/>
-     <Card desc="Shey Phoksundo Lake – A stunning turquoise glacial lake in Dolpo, surrounded by dramatic cliffs and pristine wilderness." image="https://tse4.mm.bing.net/th/id/OIP.SNfBSkuT7rkrIkVdD-dG5QHaD4?rs=1&pid=ImgDetMain&o=7&rm=3"/>
-     <Card desc="Ilam – A scenic hill town in eastern Nepal famous for its lush tea gardens, rolling hills, and misty landscapes." image="https://i.pinimg.com/originals/f5/13/f8/f513f86a65096a6ce33d02a3b8cfae61.jpg"/>
-     <Card image=""/>
-     <Card/>
-     <Card/>
+     <Card desc="Shey Phoksundo Lake - A stunning turquoise glacial lake in Dolpo, surrounded by dramatic cliffs and pristine wilderness." image="https://tse4.mm.bing.net/th/id/OIP.SNfBSkuT7rkrIkVdD-dG5QHaD4?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+     <Card desc="Ilam - A scenic hill town in eastern Nepal famous for its lush tea gardens, rolling hills, and misty landscapes." image="https://i.pinimg.com/originals/f5/13/f8/f513f86a65096a6ce33d02a3b8cfae61.jpg"/>
+     <Card  desc="Bardiya National Park – A remote wildlife sanctuary in western Nepal, home to tigers, rhinos, and rich biodiversity." image="https://visitsnepal.com/wp-content/uploads/2016/05/bardia-wildlife.jpg"/>
+     <Card desc="Langtang National Park - A Himalayan park in Nepal known for its lush forests, diverse wildlife, and stunning mountain landscapes." image="https://www.go2trek.com/wp-content/uploads/2024/04/Red-Panda-2-685x447.jpg"/>
+     <Card desc="Gosaikunda – A sacred alpine lake in the Langtang region, surrounded by snow-capped peaks and serene trekking trails." image="https://www.altitudehimalaya.com/media/files/Blog/Adventures/gosaikunda-lake.jpg"/>
     </div>
    
     </div>

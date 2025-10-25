@@ -27,7 +27,7 @@ const Home = () => {
             </button>
         </div>
 
-        <div className="image"><img src={BackgroundImage} alt="" /></div>
+        <div className="image"><img src="https://wallpaperaccess.com/full/4081673.jpg" alt="" /></div>
       </div>
 
     </div>
