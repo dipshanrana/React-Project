@@ -84,9 +84,24 @@ nav ul li:active {
   }
 
   100% {
-    transform: translateX(40vw);
+    transform: translateX(38vw);
   }
 
+}
+
+@media (max-width: 1400px) {
+@keyframes move {
+
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translateX(30vw);
+  }
+
+}
+  
 }
 
 @keyframes spin {

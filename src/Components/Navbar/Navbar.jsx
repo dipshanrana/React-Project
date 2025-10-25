@@ -27,9 +27,12 @@ const Navbar = () => {
         
       
         const handleScroll=()=>{
-          if(window.scrollY>150){
-                setScroll(true)
-                
+         
+          if(window.scrollY>150 && location.pathname==="/AboutUs" ){
+                setScroll(true)    
+          }
+          else if(window.scrollY>10 && location.pathname ==="/Contact"){
+              setScroll(true)
           }
           else{
             setScroll(false)
@@ -38,14 +41,14 @@ const Navbar = () => {
         window.addEventListener("scroll",handleScroll);
         return()=>window.removeEventListener("scroll",handleScroll);
       
-      }, []);
+      }, [location.pathname]);
  
 
     
   return (
     
-    <nav className={(location.pathname==="/AboutUs")&& scroll ?"navglow":"" }   >
-        <div  className="logo"><img src={image} alt="" /></div>
+    <nav className={ scroll ?"navglow":"" }   >
+        <div  className="logo"><Link to={"/"}><img src={image} alt="" /></Link></div>
         <div className='content'>
       <ul >
         <li className={(location.pathname==="/" &&isGlowing) ?"active":""}><Link  to="/">Home</Link></li>

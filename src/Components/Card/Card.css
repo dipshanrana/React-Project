@@ -71,9 +71,9 @@ border-radius: 4px;
     background-color:  rgb(112, 101, 101);
 }
 
-@media (max-width: 1300px) and (min-width: 800px) {
+@media (max-width: 1300px) and (min-width: 915px) {
     .box{
-        height: 50vh;
+        height: 40vh;
         width: 23vw;
            gap:14px;
     }
@@ -94,7 +94,7 @@ border-radius: 4px;
     
 }
 
-@media (max-width:800px) {
+@media (max-width:915px) {
 
         .box{
         height: 30vh;
@@ -117,7 +117,7 @@ border-radius: 4px;
     }
 
 }
-@media (max-width:660px){
+@media (max-width:600px){
         .box{
         height: 30vh;
         width: 15vw;

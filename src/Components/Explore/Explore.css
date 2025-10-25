@@ -207,19 +207,20 @@ animation:swipe 3s ease  ;
     justify-content: center;
     /* gap: 30px; */
     padding-bottom: 50px;
+    align-content: center;
  }
 
- @media (max-width: 1300px){
+ @media (max-width: 1300px) and (min-width:900px){
     .section2,.section3{
       
        grid-template-columns: repeat(3,25vw);
     grid-template-rows: 1fr 1fr;
-    gap: 5vw;
-  
+    gap: 5vh;
+       height: 90vh; 
     
 
     }
- }
+ }  
 
  @media (min-width: 1300px) and (max-width: 1600px){
     .section2,.section3{
@@ -227,6 +228,7 @@ animation:swipe 3s ease  ;
        grid-template-columns: repeat(3,30vw);
     grid-template-rows: 1fr 1fr;
     gap:30px;
+   
     
 
     }
@@ -237,8 +239,10 @@ animation:swipe 3s ease  ;
       
        grid-template-columns: repeat(3,20vw);
     grid-template-rows: 35vh 35vh;
-            gap:10vw;
-    height: 80vh;
+            gap:5vw;
+            /* height: 90vh; */
+              height: 80vh;
+            
 
     } 
     
