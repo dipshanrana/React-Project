@@ -223,6 +223,13 @@ animation:swipe 3s ease  ;
     
 
     }
+
+.firstsection img {
+height: 20vh;
+width: 25vw;
+
+
+}
  }  
 
  @media (min-width: 1300px) and (max-width: 1600px){
@@ -240,13 +247,31 @@ animation:swipe 3s ease  ;
  @media (max-width: 915px) {
      .section2,.section3{
       
-       grid-template-columns: repeat(3,20vw);
+       grid-template-columns: repeat(3,25vw);
     grid-template-rows: 35vh 35vh;
-            gap:5vw;
+            gap:7vw;
             /* height: 90vh; */
               height: 80vh;
             
 
     } 
+    .firstsection img {
+height: 15vh;
+width: 25vw;
+
+
+}
+
+
     
+}
+
+@media(max-width:600px){
+    .firstsection img {
+height: 10vh;
+width: 30vw;
+
+
+}
+
 }

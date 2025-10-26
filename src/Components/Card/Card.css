@@ -98,7 +98,7 @@ border-radius: 4px;
 
         .box{
         height: 30vh;
-        width: 15vw;
+        width: 25vw;
            gap:10px;
     }
     .textSection2 button{
@@ -112,15 +112,15 @@ border-radius: 4px;
     }
     .imgSection2{
         height: 10vh;
-        width: 10vw;
+        width: 15vw;
      
     }
 
 }
 @media (max-width:600px){
         .box{
-        height: 30vh;
-        width: 15vw;
+        height: 25vh;
+        width: 25vw;
           
     }
     .textSection2 button{
@@ -134,7 +134,7 @@ border-radius: 4px;
     }
     .imgSection2{
         height: 8vh;
-        width: 10vw;
+        width: 18vw;
      
     }
 

@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footersecond'>
-      <p style={{marginBottom:"25px", fontSize:"15px",fontWeight:600, fontSize:"14px"}}>Useful Links</p>
+      <p >Useful Links</p>
         <ul >
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Explore" >Explore</Link></li>
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footerfourth'>
-          <p style={{marginTop:"33px",marginBottom:"17px", fontWeight:600, fontSize:"14px"}}>Whole Nepal Tour</p>
+          <p >Whole Nepal Tour</p>
           <img src={map}a lt="" />
       </div>
     </div>
