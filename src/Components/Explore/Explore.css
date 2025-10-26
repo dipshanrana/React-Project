@@ -266,12 +266,33 @@ width: 25vw;
     
 }
 
-@media(max-width:600px){
+@media(max-width:610px){
     .firstsection img {
 height: 10vh;
 width: 30vw;
 
 
+}
+
+.textExplore{
+    font-size: 12px;
+}
+  
+.textExplore :nth-child(1){
+    font-size: 18px;
+  
+
+}
+.textExplore :nth-child(1){
+    font-size: 18px;
+  
+
+}
+.section1 h1{
+    font-size: 20px;
+}
+.section1 heigh::after{
+    font-size: 18px;
 }
 
 }

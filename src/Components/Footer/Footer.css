@@ -228,5 +228,13 @@ list-style: none;
 }
 
 
-
+.footerfourth{
+    margin-top: 27px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10;
+}
+.footerfourth p{
+    margin-bottom: 10px;
+}
 
