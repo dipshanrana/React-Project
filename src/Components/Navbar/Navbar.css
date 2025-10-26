@@ -51,6 +51,7 @@ nav ul li {
 }
 
 
+
 nav ul li:hover {
   /* color: rgb(163, 66, 66); */
   background-color: rgba(144, 120, 91, 0.234);
@@ -219,3 +220,41 @@ transition: background-color 1s ease;
   }
 
 }  */
+
+
+@media (max-width:800px){
+nav ul li{
+padding:3vw;
+}
+nav ul li a{
+  font-size: 9px;
+}
+.logo {
+  margin-left: 5vw;
+
+}
+.logo img{
+  height: 5vh;
+  width: 6vw;
+}
+nav ul li:hover a{
+   /* font-weight: 600; */
+   font-size: 11px
+}
+
+nav ul {
+  width: 75vw;
+}
+@keyframes move {
+
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translateX(10vw);
+  }
+
+}
+
+}

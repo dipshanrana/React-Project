@@ -63,12 +63,35 @@ margin-bottom: 20px;
     flex-direction: row;
     gap: 3vw;
     flex-wrap: wrap;
+    align-items: center;
+  
 }
-@media (max-width:1000px) {
+@media (max-width:1200px) {
     .contactText{
-        height: 70vh;
+        height: 60vh;
     }
     .contactText h1{
         font-size: 10px;
+    }
+}
+
+@media (max-width:950px) {
+    .contactText{
+        height: 60vh;
+        width:40vw;
+        
+    }
+    .contactText h1{
+        font-size: 8px;
+    }
+    .contactText h2{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:500px){
+    .contactText{
+        height: 50vh;
+        width: 45vw;
     }
 }

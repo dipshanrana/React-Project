@@ -53,3 +53,96 @@
  
     background-color: #287aec;
 }
+
+@media (max-width:980px) {
+
+    
+.form h2{
+  
+   
+  font-size: 17px;
+    
+}
+ .formbutton{
+    height:4vh;
+    width: 15vw;
+    font-size: 8px;
+ }   
+ .name{
+    width: 12vw;
+    height: 4vh;
+    font-size: 8px;
+    border: 1px solid black;
+      border-radius: 2px;
+ }
+
+ .email{
+    width: 20vw;
+    height: 4vh;
+    font-size: 8px; 
+      border: 1px solid black;
+        border-radius: 2px;
+ }
+ .textarea{
+    /* height:6vh ; */
+    
+  height: 8vh;
+  width: 22vw;
+    border: 1px solid black;
+    border-radius: 2px;
+    
+}
+.form{
+    gap: 5vh;
+}
+}
+
+@media (max-width:980px) {
+
+    
+.form h2{
+  
+   
+  font-size: 17px;
+    
+}
+ .formbutton{
+    height:4vh;
+    width: 15vw;
+    font-size: 8px;
+ }   
+ .name{
+    width: 12vw;
+    height: 3vh;
+    font-size: 8px;
+    border: 1px solid black;
+      border-radius: 2px;
+ }
+
+ .email{
+    width: 20vw;
+    height: 3vh;
+    font-size: 8px; 
+      border: 1px solid black;
+        border-radius: 2px;
+ }
+ .textarea{
+    /* height:6vh ; */
+    
+  height: 7vh;
+  width: 22vw;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 7px;
+    
+}
+.form{
+    gap: 5vh;
+}
+}
+@media(max-width:500px){
+    .form{
+        height:50vh;
+        gap:3vh;
+    }
+}
